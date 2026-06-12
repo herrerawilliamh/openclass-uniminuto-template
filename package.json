@@ -1,6 +1,6 @@
 {
   "name": "openclass-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Presentaciones Open Class del curso Curso Open Class de ejemplo.",
   "type": "module",
   "private": true,
