@@ -415,7 +415,7 @@ export default decks;
 
 function buildScripts() {
   const scripts = {
-    dev: "slidev slides.md --open --port ${8600 + i}",
+    dev: "slidev slides.md --open --port 8600",
     config: "node scripts/generar-desde-config.mjs",
     semana: "node scripts/semana.mjs",
     "pages:check": "node scripts/preparar-github-pages.mjs",
@@ -610,4 +610,5 @@ console.log("\n✅ Configuración generada.");
 console.log("   Próximo paso sugerido: npm install");
 console.log("   Vista de una semana:   npm run dev:s1");
 console.log("   Vista completa:        npm run vista\n");
+
 

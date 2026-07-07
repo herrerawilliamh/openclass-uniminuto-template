@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "slidev slides.md --open --port ${8600 + i}",
+    "dev": "slidev slides.md --open --port 8600",
     "config": "node scripts/generar-desde-config.mjs",
     "semana": "node scripts/semana.mjs",
     "pages:check": "node scripts/preparar-github-pages.mjs",
