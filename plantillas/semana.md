@@ -6,7 +6,7 @@ layout: slide-01-portada
 {{COURSE_NAME}}
 
 ::week::
-Semana {{WEEK_NUMBER}} — {{WEEK_TITLE}}
+Semana {{WEEK_NUMBER}}
 
 ::date::
 {{WEEK_DATE}}
@@ -16,7 +16,7 @@ layout: slide-02-titulo
 ---
 
 ::title::
-Ruta de la Open Class
+{{WEEK_TITLE}}
 
 ---
 layout: slide-08-titulo-texto
@@ -140,15 +140,7 @@ Recurso multimedia de apoyo
 
 ::media::
 
-<iframe
-  width="100%"
-  height="100%"
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-  title="Recurso multimedia de apoyo"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=eyHyabU-8-KgH0A2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 layout: slide-08-titulo-texto
@@ -255,6 +247,7 @@ presentar_contexto(tema, actividad)
 
 ---
 layout: slide-08-titulo-texto
+---
 
 ::title::
 Actividad de aplicación
@@ -353,9 +346,11 @@ Plantilla para instrucciones con clics
 layout: slide-11-dos-titulos-dos-columnas
 ---
 
-::leftTitle:: <span v-click>Plantilla animación antes del análisis</span>
+::leftTitle:: 
+<span v-click>Plantilla animación antes del análisis</span>
 
-::rightTitle:: <span v-click>Plantilla animación después del análisis</span>
+::rightTitle:: 
+<span v-click>Plantilla animación después del análisis</span>
 
 ::left::
 
